@@ -1,7 +1,7 @@
 import re
 import yaml
 # cargar lista de paginas malas
-with open("config/blocklist.txt", "r") as f:
+with open("config/blocklists.txt", "r") as f:
     dominios_prohibidos = [line.strip() for line in f if line.strip()]
 
 #cargamos palabras clave desde un archivo YAML
